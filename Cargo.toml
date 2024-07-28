@@ -11,5 +11,5 @@ panic = 'abort'     # Abort on panic
 strip = true        # Strip symbols from binary*
 
 [dependencies]
-tokio = { version = "1.28", features = ["rt", "time", "macros"] }
+tokio = { version = "1.39.2", features = ["time"] }
 reqwest = { version = "0.11", features = ["json"] }
